@@ -1,0 +1,22 @@
+.pulsing-heart {
+    height: 60px;
+    width: 60px;
+    color: aqua;
+}
+
+.pulsing-heart:hover {
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%,
+    25%,
+    45% {
+        transform: scale(1);
+    }
+
+    15%,
+    35% {
+        transform: scale(1.2);
+    }
+}
